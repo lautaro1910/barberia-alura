@@ -1,0 +1,73 @@
+body {
+    background-color: antiquewhite;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 97, 115);
+    border: 3px solid;
+    border-radius: 15px;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    padding: 5%;
+}
+
+#titulo {
+    text-align: center;
+    background-color: rgb(103, 148, 187);
+    border: 3px solid;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+p {
+    text-align: center;
+}
+
+#mision {
+    font-size: 20px;
+}
+
+em strong {
+    color: salmon;
+}
+
+.diferencias {
+    background-color: rgb(98, 109, 125);
+    padding: 1%;
+}
+
+.tituloCentralizado {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+}
+
+.item{
+    font-style: italic;
+    
+}
+
+.imagenDiferencias {
+    width: 50%;
+    
+}
+
+#footer {
+    background-color: rgb(147, 109, 60);
+    
+    position:static;
+}
