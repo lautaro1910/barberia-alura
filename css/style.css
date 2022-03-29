@@ -1,73 +1,153 @@
-body {
-    background-color: antiquewhite;
+header {
+    background-color: rgb(128, 123, 117);
+    padding: 20px 0px;
 }
 
-.tituloPrincipal {
-    text-align: center;
-    padding: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(20, 97, 115);
-    border: 3px solid;
-    border-radius: 15px;
+.navegacion {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-#banner {
-    width: 100%;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.principal {
-    padding: 5%;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-#titulo {
-    text-align: center;
-    background-color: rgb(103, 148, 187);
-    border: 3px solid;
-    padding: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none;
 }
 
-p {
-    text-align: center;
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
 }
 
-#mision {
-    font-size: 20px;
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-em strong {
-    color: salmon;
-}
-
-.diferencias {
-    background-color: rgb(98, 109, 125);
-    padding: 1%;
-}
-
-.tituloCentralizado {
-    text-align: center;
-}
-
-ul {
+.productos li {
     display: inline-block;
-    vertical-align: top;
     width: 30%;
-    margin-right: 15%;
+    text-align: center;
+    align-items: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 18px;
 }
 
-.item{
-    font-style: italic;
-    
+.productos li:hover{
+    border-color: #c78c19;
 }
 
-.imagenDiferencias {
+.productos li:active{
+    border-color: #088c19;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.descripcionProducto {
+    font-size: 18px;
+}
+
+.precioProducto {
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background-image: url(/img/imagenes/bg.jpg);
+    padding: 30px;
+}
+
+#textoFooter{
+    color: white;
+    font-size: 10px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 30px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 17px;
+    margin: 0 0 10px;
+}
+
+.inputPadron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
-    
 }
 
-#footer {
-    background-color: rgb(147, 109, 60);
-    
-    position:static;
+.checkbox {
+    margin: 20px 0;
+}
+
+#enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    background-color: #c78c19;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+#enviar:hover {
+    background: rgb(121, 29, 21);
+    transform: scale(1.1);
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background-color: #564625;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
 }
